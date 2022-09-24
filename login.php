@@ -25,7 +25,7 @@
             
             <div class="buttons_login">
                 <input type="submit" name="login" class="btn btn-primary" value="Log In">
-                <label for="">Don't have an account yet?  <span><a href="home.php">Sign Up</a></span></label>
+                <label for="">Don't have an account yet?  <span><a href="register.php">Sign Up</a></span></label>
             </div>
         </form>
     </div>
