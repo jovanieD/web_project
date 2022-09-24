@@ -1,0 +1,48 @@
+:root{
+    --bg-color: white;
+}
+
+body{
+    background-color: var(--bg-color);
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    
+}
+.main_view{
+    font-family: 'Kanit', sans-serif;
+    margin-top: 20vh;
+    width: 40%;
+    box-shadow: 1px 9px 10px 5px lightblue;
+    border-radius: 20px;
+    padding:20px;
+
+}
+
+.btn{
+    width: 70%;
+    margin-left: 15%;
+    color: black;
+}
+
+.buttons label{
+  margin-left: 25%;
+  font-style: italic;
+}
+
+
+.buttons label a{
+    font-size: 19px;
+  }
+
+  .buttons_login label{
+    margin-left: 25%;
+    font-style: italic;
+  }
+
+@media only screen and (max-width: 1000px) {
+    .main_view{
+        width: 60%;
+    }
+  }
