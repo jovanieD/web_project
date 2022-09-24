@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class= "main_view">
-    <form  class= "main_form" action="process_register.php" method="POST">
+    <form  class= "main_form" action="process.php" method="POST">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputFirstname">Firstname</label>
@@ -50,7 +50,6 @@
   <label for="">Have already an account? <span><a href="login.php">Sign In</a></span></label>
   </div>
 </form>
-
     </div>
 
 </body>
